@@ -17,7 +17,7 @@ public:
 private:
     bool isStop;
     bool isPause;
-    QMutex mutex;
+    QMutex mutex,mutex2;
 
 private:
 
